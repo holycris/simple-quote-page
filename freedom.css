@@ -7,7 +7,7 @@
   background-size: cover;
   width:100vw;
   height: 100vh;
-  color: hsla(100, 0%, 0%,.6);
+  color: hsla(100, 0%, 0%,.9);
   display:table;
   text-align: center;
   font-family: 'Raleway', sans-serif;
@@ -19,4 +19,11 @@
   line-height:1.58;
   letter-spacing: .2rem;
   padding:0 2rem;
+}
+.cover p {
+  font-family:'Rubik',sans-serif;
+  font-size:1.25rem;
+  font-style:italic;
+  padding-top:6rem;
+  
 }

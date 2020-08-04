@@ -13,7 +13,7 @@ body {
   color:#333;
 }
 .wrapper {
-  padding-top:2rem;
+  padding-top:1rem;
   width: 90%;
   text-align: center;
   margin: 0 auto;
@@ -26,7 +26,7 @@ body {
 
 .quote {
   font-family; 'Raleway', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 @media (min-width:768px) {
   .quote {
@@ -36,7 +36,7 @@ body {
 
 .author {
   font-family:'Rubik', serif;
-  font-size: 1rem;
+  font-size: .8rem;
   font-style: italic;
 }
 @media (min-width:768px) {

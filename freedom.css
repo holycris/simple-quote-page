@@ -1,29 +1,46 @@
-
-* {
-  box-sizing:border-box;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
 }
-.cover {
-  background-image: url("assets/freedom.jpg");
-  background-size: cover;
-  width:100vw;
+body {
+  width: 100%;
   height: 100vh;
-  color: hsla(100, 0%, 0%,.9);
-  display:table;
+  background: url('assets/freedom.jpg') no-repeat center;
+  background-size: cover;
+  color:#333;
+}
+.wrapper {
+  padding-top:2rem;
+  width: 90%;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  padding-top: 8rem;
+  margin: 0 auto;
 }
-.cover h1 {
+@media (min-width:768px) {
+  .wrapper {
+  padding-top: 4rem;
+  }
+}
+
+.quote {
+  font-family; 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+@media (min-width:768px) {
+  .quote {
   font-size: 2.5rem;
-  text-transform:uppercase;
-  line-height:1.58;
-  letter-spacing: .2rem;
-  padding:0 2rem;
+  }
 }
-.cover p {
-  font-family:'Rubik',sans-serif;
-  font-size:1.25rem;
-  font-style:italic;
-  padding-top:6rem;
-  
+
+.author {
+  font-family:'Rubik', serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+@media (min-width:768px) {
+  .author 
+  font-size: 1.5rem;
+}
 }
